@@ -1,0 +1,25 @@
+.jumbotron {
+  background-image: url("src/assets/images/landing-banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+.jumbotron > h1,
+p {
+  color: white;
+  font-weight: 800;
+}
+
+.btn {
+  background-color: #faa2d6;
+  border: none;
+  color: white;
+  font-weight: 800;
+}
+
+.btn:hover {
+  background-color: #a6e1df;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+<section class="products-section py-4">
+  <div class="container">
+    <header class="section-heading">
+      <a href="#" class="btn btn-md mt-3 float-right">See all</a>
+      <h3 class="display-4 text-muted">Our signature Cakes</h3>
+    </header>
+
+    <div>
+      <div class="row my-4">
+        <div *ngFor="let product of productList" class="product-card px-1 my-3">
+          <app-product-items [productItem]="product"></app-product-items>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

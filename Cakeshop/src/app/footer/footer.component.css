@@ -1,0 +1,24 @@
+footer a {
+  color: #8cd0e3;
+  text-decoration: none;
+}
+
+.title {
+  font-weight: 800;
+ 
+}
+
+.fa{
+  align-content: center;
+  padding: 4%;
+}
+
+.fa:hover{
+  color:  #faa2d6;
+  cursor: pointer;
+}
+
+footer a:hover{
+  color:  #faa2d6;
+  cursor: pointer;
+}

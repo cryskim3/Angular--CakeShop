@@ -1,0 +1,18 @@
+.alert {
+  background-color: #faa2d6;
+  border: none;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.bg-custom {
+  background-color: #faa2d6;
+  font-weight: 800;
+}
+
+.list-group-item__total {
+  padding: 1%;
+  text-align: center;
+}

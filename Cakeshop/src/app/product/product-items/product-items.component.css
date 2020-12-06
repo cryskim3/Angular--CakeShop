@@ -1,0 +1,43 @@
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #faa2d6;
+  border: none;
+  color: white;
+  font-weight: 800;
+}
+
+.btn:hover {
+  color: #faa2d6;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn__btn1 {
+  background-color: #a6e1df;
+}
+.btn__btn1:hover {
+  color: #a6e1df;
+  background-color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+<div class="col-lg-3 col-md-6">
+  <div href="#" class="card card-product-grid" style="width: 19rem">
+    <a href="#" class="img-wrap">
+      <img [src]="productItem.imagePath" class="card-img-top image" alt="product" />
+    </a>
+    <div class="overlay">
+      <button type="button" [routerLink]="['/products', productItem.id]" class="btn py-2 btn-block">
+        See description
+      </button>
+      <button type="button" (click)="addToCart()" class="btn btn__btn1 py-2 btn-block">
+        Add to Cart
+      </button>
+    </div>
+    <div class="card-body border-top text-center">
+      <div class="card-text">
+        <h5 class="card-title text-muted">{{ productItem.name }}</h5>
+        <h6 class="card-desription text-muted">
+          {{ productItem.description }}
+        </h6>
+        <div class="price mt-1">${{ productItem.price }}</div>
+      </div>
+    </div>
+  </div>
+</div>
